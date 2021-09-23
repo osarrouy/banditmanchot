@@ -10,7 +10,7 @@ exports.handler = async function (event, context) {
       address: wallet.address,
       publicKey: wallet.publicKey,
       privateKey: wallet.privateKey,
-      balalnce: (await wallet.getBalance()).toString(),
+      balance: (await wallet.getBalance()).toString(),
     }),
   };
 };
